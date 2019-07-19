@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ru_app_logo" translatesAutoresizingMaskIntoConstraints="NO" id="H3w-gb-KOs">
+                                <rect key="frame" x="127.5" y="273.5" width="120" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="7dw-dC-N63"/>
+                                    <constraint firstAttribute="width" constant="120" id="azf-1O-GJw"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bUA-Y4-sB8">
+                                <rect key="frame" x="0.0" y="577" width="375" height="130"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="uft" translatesAutoresizingMaskIntoConstraints="NO" id="REb-Qk-8Lm">
+                                        <rect key="frame" x="125" y="17" width="125" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="125" id="YdB-D8-9wg"/>
+                                            <constraint firstAttribute="height" constant="50" id="voL-R1-RBN"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.12156862745098039" green="0.32941176470588235" blue="0.49803921568627452" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="REb-Qk-8Lm" firstAttribute="top" secondItem="bUA-Y4-sB8" secondAttribute="top" constant="17" id="MZy-pg-1vX"/>
+                                    <constraint firstItem="REb-Qk-8Lm" firstAttribute="centerX" secondItem="bUA-Y4-sB8" secondAttribute="centerX" id="O0A-gr-UDD"/>
+                                    <constraint firstAttribute="height" constant="130" id="OA9-7N-PGm"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cardápio RU" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O26-Gl-pQ7">
+                                <rect key="frame" x="97.5" y="213.5" width="180" height="40"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Universidade Federal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZJQ-3F-ZPj">
+                                <rect key="frame" x="73.5" y="413.5" width="228" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="do Tocantins" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hwx-3b-D7y">
+                                <rect key="frame" x="119" y="445.5" width="137" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.88627450980392153" green="0.88627450980392153" blue="0.88627450980392153" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="O26-Gl-pQ7" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="13g-K0-iHl"/>
+                            <constraint firstAttribute="bottom" secondItem="bUA-Y4-sB8" secondAttribute="bottom" constant="-40" id="4xM-s3-idC"/>
+                            <constraint firstItem="bUA-Y4-sB8" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="BQB-nR-myp"/>
+                            <constraint firstItem="ZJQ-3F-ZPj" firstAttribute="top" secondItem="H3w-gb-KOs" secondAttribute="bottom" constant="20" id="ETq-vZ-QBD"/>
+                            <constraint firstItem="bUA-Y4-sB8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="JbX-Fh-uaJ"/>
+                            <constraint firstItem="hwx-3b-D7y" firstAttribute="top" secondItem="ZJQ-3F-ZPj" secondAttribute="bottom" constant="2" id="Ojt-e5-Dj3"/>
+                            <constraint firstItem="H3w-gb-KOs" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="QVq-Vc-c5K"/>
+                            <constraint firstItem="H3w-gb-KOs" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="XnS-e3-tdf"/>
+                            <constraint firstItem="H3w-gb-KOs" firstAttribute="top" secondItem="O26-Gl-pQ7" secondAttribute="bottom" constant="20" id="Zyo-8w-dng"/>
+                            <constraint firstItem="hwx-3b-D7y" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="hBA-DN-F5u"/>
+                            <constraint firstItem="ZJQ-3F-ZPj" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="hgX-zp-H4y"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ru_app_logo" width="123.36000061035156" height="123.36000061035156"/>
+        <image name="uft" width="304.79998779296875" height="140.63999938964844"/>
+    </resources>
+</document>

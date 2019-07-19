@@ -1,0 +1,54 @@
+
+/* Class = "UILabel"; text = "Segunda-feira"; ObjectID = "3et-iJ-VRB"; */
+"3et-iJ-VRB.text" = "Segunda-feira";
+
+/* Class = "UILabel"; text = "Versão para iOS:"; ObjectID = "3oj-VS-6QN"; */
+"3oj-VS-6QN.text" = "Versão para iOS:";
+
+/* Class = "UILabel"; text = "Sem conexão com a internet."; ObjectID = "5Te-ic-Mfy"; */
+"5Te-ic-Mfy.text" = "Sem conexão com a internet.";
+
+/* Class = "UILabel"; text = "Alface, vinagrete e carpaccio de jiló"; ObjectID = "800-E5-wVC"; */
+"800-E5-wVC.text" = "Alface, vinagrete e carpaccio de jiló";
+
+/* Class = "UILabel"; text = "Cárdapio RU"; ObjectID = "Acx-BJ-VRg"; */
+"Acx-BJ-VRg.text" = "Cárdapio RU";
+
+/* Class = "UILabel"; text = "Carregando cardápio..."; ObjectID = "SvK-r5-7tf"; */
+"SvK-r5-7tf.text" = "Carregando cardápio...";
+
+/* Class = "UILabel"; text = "Sexta-feira"; ObjectID = "cue-cg-aXw"; */
+"cue-cg-aXw.text" = "Sexta-feira";
+
+/* Class = "UILabel"; text = "Cardápio não cadastrado."; ObjectID = "eFI-dn-nbr"; */
+"eFI-dn-nbr.text" = "Cardápio não cadastrado.";
+
+/* Class = "UILabel"; text = "Desenvolvido por:"; ObjectID = "hU1-PA-tIx"; */
+"hU1-PA-tIx.text" = "Desenvolvido por:";
+
+/* Class = "UILabel"; text = "Cardápio RU - UFT"; ObjectID = "mnl-vJ-yda"; */
+"mnl-vJ-yda.text" = "Cardápio RU - UFT";
+
+/* Class = "UILabel"; text = "Diretoria de Tecnologia da Informação - DTI"; ObjectID = "okN-ll-Az5"; */
+"okN-ll-Az5.text" = "Diretoria de Tecnologia da Informação - DTI";
+
+/* Class = "UILabel"; text = "Versão 1.0"; ObjectID = "okr-wJ-d3m"; */
+"okr-wJ-d3m.text" = "Versão 1.0";
+
+/* Class = "UILabel"; text = "Paulo Atavila"; ObjectID = "pOe-xp-JOW"; */
+"pOe-xp-JOW.text" = "Paulo Atavila";
+
+/* Class = "UILabel"; text = "RU Palmas"; ObjectID = "sNG-Un-1fp"; */
+"sNG-Un-1fp.text" = "RU Palmas";
+
+/* Class = "UILabel"; text = "De 08/10 a 12/10"; ObjectID = "uQX-oo-UET"; */
+"uQX-oo-UET.text" = "De 08/10 a 12/10";
+
+/* Class = "UISegmentedControl"; whK-9C-7ld.segmentTitles[0] = "Almoço"; ObjectID = "whK-9C-7ld"; */
+"whK-9C-7ld.segmentTitles[0]" = "Almoço";
+
+/* Class = "UISegmentedControl"; whK-9C-7ld.segmentTitles[1] = "Jantar"; ObjectID = "whK-9C-7ld"; */
+"whK-9C-7ld.segmentTitles[1]" = "Jantar";
+
+/* Class = "UILabel"; text = "Prato Principal"; ObjectID = "zBS-BG-7F2"; */
+"zBS-BG-7F2.text" = "Prato Principal";
